@@ -1,4 +1,4 @@
-# apktool for Termux
+# Apktool For Termux
 ***Apktool v2.5.0***
 
 ***Smali v2.4.0***
