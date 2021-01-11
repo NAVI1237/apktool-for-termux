@@ -28,3 +28,6 @@ apktool b {folder} --output {outputApk}
 apt install apksigner
 apksigner -p {password} {keystore} {apk} {outputApk}
 ```
+
+**__Credits__**
+> [Termux-Apktool by @Lexiie](https://github.com/Lexiie/Termux-Apktool)
