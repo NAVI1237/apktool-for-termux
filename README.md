@@ -8,6 +8,7 @@
 
 **Install**
 ```
+apt install git
 git clone https://github.com/NAVI1237/apktool-for-termux
 cd apktool-for-termux
 bash install.sh
