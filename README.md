@@ -20,5 +20,11 @@ apktool d {apk}
 
 **Recompile**
 ```
-apktool b {folder} --output {apk name}
+apktool b {folder} --output {outputApk}
+```
+
+**Sign APK**
+```
+apt install apksigner
+apksigner -p {password} {keystore} {apk} {outputApk}
 ```
