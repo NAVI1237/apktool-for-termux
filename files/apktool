@@ -1,0 +1,14 @@
+#!/usr/bin/sh
+
+sdk=$(getprop ro.build.version.sdk)
+
+if [ $sdk -eq 24 ]; then
+sed -i "s/export/#export/g" $PREFIX/bin/dalvikvm
+fi
+
+dalvikvm -cp $PREFIX/lib/apktool.jar\
+	brut.apktool.Main \
+	-cp $PREFIX/share/java/android.jar \
+	$@ \
+	-p /system/framework/framework-res.apk \
+	-r
