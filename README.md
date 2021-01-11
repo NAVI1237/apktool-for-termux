@@ -5,8 +5,7 @@
 
 ***Baksmali v2.4.0***
 
-
-**Install**
+**__Install__**
 ```
 apt install git
 git clone https://github.com/NAVI1237/apktool-for-termux
@@ -14,17 +13,17 @@ cd apktool-for-termux
 bash install.sh
 ```
 
-**Decompile**
+**__Decompile__**
 ```
 apktool d {apk}
 ```
 
-**Recompile**
+**__Recompile__**
 ```
 apktool b {folder} --output {outputApk}
 ```
 
-**Sign APK**
+**__Sign APK__**
 ```
 apt install apksigner
 apksigner -p {password} {keystore} {apk} {outputApk}
