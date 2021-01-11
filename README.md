@@ -31,4 +31,5 @@ apksigner -p {password} {keystore} {apk} {outputApk}
 
 **__Credits__**
 > [Apktool](https://github.com/iBotPeaches/Apktool)
+
 > [Termux-Apktool by @Lexiie](https://github.com/Lexiie/Termux-Apktool)
